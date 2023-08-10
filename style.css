@@ -1,0 +1,36 @@
+body.debug .container,
+body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+}
+
+body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+}
+
+.mdi-chess-knight {
+    font-size: 75px;
+}
+
+.img-height {
+    height: 100%;
+}
+
+.hero-card {
+    height: 10vh;
+    border-radius: 50%;
+}
+
+main {
+    background-color: rgba(232, 232, 232, 1);
+}
+
+/* .d-flex {
+    display: flex;
+} */
